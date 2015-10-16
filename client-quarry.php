@@ -12,17 +12,17 @@ if ( !defined( 'ABSPATH' ) ) exit;
 
 // Add client role and capabilities on plugin activation
 function activate_client_quarry() {
-    add_role(
-    	'client',
-    	__( 'Client' ),
-    	array(
+	add_role(
+    		'client',
+    		__( 'Client' ),
+    		array(
 			'read' => true,
 			'create_pages' => true,
 			'edit_pages' => true,
 			'edit_published_pages' => true,
 			'publish_pages' => true,
 			'edit_others_pages' => false
-    	)
+    		)
 	);
 }
 register_activation_hook( __FILE__, 'activate_client_quarry' );
