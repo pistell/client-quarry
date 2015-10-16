@@ -6,7 +6,7 @@ Adds a `client` user role to only allow the viewing/editing of a page assigned t
 
 ## Installation
 
-+ **[Download Plugin]: https://github.com/pistell/client-quarry/archive/master.zip**
++ **[Download Plugin](https://github.com/pistell/client-quarry/archive/master.zip)**
 + Upload the .zip to the backend of WordPress
 + Activate the plugin through the 'Plugins' menu in WordPress
 
